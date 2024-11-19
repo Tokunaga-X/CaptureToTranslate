@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div class="container">
+      <button id="captureBtn">开始截图</button>
+      <div class="upload-section">
+        <input type="file" id="imageUpload" accept="image/*" />
+        <label for="imageUpload">或者上传图片</label>
+      </div>
+      <select id="targetLang">
+        <option value="zh">中文</option>
+        <option value="en">英文</option>
+        <option value="ja">日文</option>
+      </select>
+      <div id="result" class="result-container">
+        <div id="originalText"></div>
+        <div id="translatedText"></div>
+      </div>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>

@@ -1,0 +1,12 @@
+extension/
+├── manifest.json
+├── popup/
+│   ├── popup.html
+│   ├── popup.css
+│   └── popup.js
+├── background/
+│   └── background.js
+├── content/
+│   └── content.js
+└── assets/
+    └── icon.png 
